@@ -9,7 +9,7 @@ use bevy::{
     asset::io::{
         AssetReader, AssetReaderError, AsyncSeekForward, ErasedAssetReader, PathStream, Reader,
     },
-    utils::HashMap,
+    platform_support::collections::HashMap,
 };
 use futures_io::{AsyncRead, AsyncSeek};
 use futures_lite::Stream;
